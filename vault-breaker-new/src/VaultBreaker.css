@@ -1,0 +1,160 @@
+/* Vault container styles */
+.vault-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1f1f1f, #121212, #2a2a2a);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Title and subtitles */
+  .vault-title {
+    font-size: 3rem;
+    color: #00d9ff;
+    text-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff, 0 0 30px #00d9ff;
+    margin-bottom: 20px;
+  }
+  
+  .vault-subtitle {
+    font-size: 1.5rem;
+    color: #ff007a;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px #ff007a, 0 0 20px #ff007a;
+  }
+  
+  /* Card styling */
+  .vault-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  /* Inputs */
+  .vault-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  .vault-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00d9ff;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .vault-button:hover {
+    background: #007acc;
+    box-shadow: 0 0 15px #00d9ff;
+  }
+  
+  /* Clue and question text */
+  .vault-clue {
+    font-size: 0.9rem;
+    color: #cccccc;
+    margin-bottom: 10px;
+  }
+  
+  .vault-question {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #ff007a;
+    text-shadow: 0 0 5px #ff007a;
+  }
+  
+  .timer {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .hint-button {
+    background-color: #4caf50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .hint-button:hover {
+    background-color: #45a049;
+  }
+  
+  .hint-used {
+    color: #ffd700;
+    margin-top: 10px;
+  }
+  
+  .highlighted-text {
+    font-size: 1.5rem;
+    color: #ff4500;
+    font-weight: bold;
+  }
+  
+  .hint-message {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .hint-message,
+  .hint-used {
+    background-color: rgba(0, 123, 255, 0.1);
+    border: 1px solid #00d9ff;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #00d9ff;
+    font-weight: bold;
+    text-shadow: 0 0 8px #00d9ff;
+    box-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Rules box at top-right */
+  .rules-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #cccccc;
+    text-align: left;
+    max-width: 200px;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 0 10px #00d9ff;
+  }
+  /* Timer turns red when under 100s */
+.low-time {
+    color: red;
+    text-shadow: 0 0 10px red, 0 0 20px red;
+  }
+  
+  
